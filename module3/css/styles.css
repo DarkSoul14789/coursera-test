@@ -1,0 +1,95 @@
+body {
+    font-size: 16px;
+    text-overflow: clip;
+}
+/* start of navbar */
+#header-nav {
+    border-radius: 0;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+.container-fluid #navbar-content {
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: auto;
+    text-overflow: clip;
+    
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    text-align: center;
+    font-size: 1.8em;
+    color: black;
+    border-bottom: 1px solid black;
+}
+#nav-list :nth-child(2) a {
+    height: 50px;
+    padding-top: 12.5px;
+}
+#nav-list :nth-child(3) a {
+    border-bottom: 0px;
+}
+#nav-list a:hover {
+    color: black;
+    font-weight: 700;
+}
+.navbar-default .navbar-toggle, .icon-bar{
+    border: 1px solid black;
+}
+.navbar-default .navbar-collapse {
+    border-color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* end of navbar */
+/* star of page heading  */
+.page-heading #heading-content {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2.5%;
+    font-size: 2.25em;
+}
+/* end of page heading  */
+/* start of main body content  */
+
+.container-fluid .row .col-xs-12 {
+    background-color: cornsilk;
+    margin-bottom: 0px;
+    height: 1000px;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: auto; 
+    text-overflow: clip;
+    float: none;   
+}
+.row {
+    margin: auto;
+}
+.container-fluid .row .col-xs-12 span {
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75em;
+}
+.h2, h2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    color: darkred;
+    font-weight: 600;
+}
+
+/* end of main body content  */
+@media (max-width:271px) {
+    .container-fluid #navbar-content {
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) {
+    .container-fluid .row .col-xs-12 {
+        width: 100%;
+    }
+}
